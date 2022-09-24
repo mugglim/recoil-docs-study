@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:18.2.0"],\
             ["react-scripts", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:5.0.1"],\
+            ["recoil", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:0.7.5"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -9612,6 +9613,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["hamt_plus", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/hamt_plus-npm-1.0.2-67a52ee1df-af26ea32db.zip/node_modules/hamt_plus/",\
+          "packageDependencies": [\
+            ["hamt_plus", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["handle-thing", [\
         ["npm:2.0.1", {\
           "packageLocation": "./.yarn/cache/handle-thing-npm-2.0.1-084baca59e-68071f3130.zip/node_modules/handle-thing/",\
@@ -12138,6 +12148,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:18.2.0"],\
             ["react-scripts", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:5.0.1"],\
+            ["recoil", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:0.7.5"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -15001,6 +15012,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["readdirp", "npm:3.6.0"],\
             ["picomatch", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["recoil", [\
+        ["npm:0.7.5", {\
+          "packageLocation": "./.yarn/cache/recoil-npm-0.7.5-b0fe76743a-19b410cca6.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "npm:0.7.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:0.7.5", {\
+          "packageLocation": "./.yarn/__virtual__/recoil-virtual-47353ee38e/0/cache/recoil-npm-0.7.5-b0fe76743a-19b410cca6.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:0.7.5"],\
+            ["@types/react", "npm:18.0.21"],\
+            ["@types/react-dom", "npm:18.0.6"],\
+            ["@types/react-native", null],\
+            ["hamt_plus", "npm:1.0.2"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:18.2.0"],\
+            ["react-native", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react-native",\
+            "@types/react",\
+            "react-dom",\
+            "react-native",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
