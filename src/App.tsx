@@ -1,22 +1,13 @@
 import React from 'react';
+import TodoItemCreator from './components/Todo/TodoItemCreator';
+import TodoList from './components/Todo/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TodoItemCreator />
+      <TodoList />
+    </>
   );
 }
 
