@@ -12,7 +12,6 @@ function removeItemAtIndex(arr: Todo[], idx: number) {
 
 export default function TodoItem({item}: {item: Todo}) {
   const [todoList, setTodoList] = useRecoilState(todoListState);
-  const {id, text, isComplete} = item;
   const todoItemIndex = todoList.findIndex((listItem) => listItem === item);
 
   const editItemText = (e: ChangeEvent<HTMLInputElement>) => {
