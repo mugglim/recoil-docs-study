@@ -1,4 +1,5 @@
-import {atom} from 'recoil';
+import {atom, useSetRecoilState} from 'recoil';
+import {TODO_LIST} from '../constants/TODO';
 
 export type Todo = {
   id: number;
@@ -8,5 +9,5 @@ export type Todo = {
 
 export const todoListState = atom<Todo[]>({
   key: 'todoListState',
-  default: [],
+  default: [...TODO_LIST],
 });

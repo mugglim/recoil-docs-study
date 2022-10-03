@@ -7,10 +7,10 @@ export default function TodoList() {
   const todoList = useRecoilValue(todoListState);
 
   return (
-    <>
+    <ul>
       {todoList.map((todo) => (
         <TodoItem key={todo.id} item={todo} />
       ))}
-    </>
+    </ul>
   );
 }

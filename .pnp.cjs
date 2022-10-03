@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@testing-library/dom", "npm:8.18.1"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:13.5.0"],\
@@ -4228,7 +4229,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@testing-library/user-event", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:13.5.0"],\
             ["@babel/runtime", "npm:7.19.0"],\
-            ["@testing-library/dom", null],\
+            ["@testing-library/dom", "npm:8.18.1"],\
             ["@types/testing-library__dom", null]\
           ],\
           "packagePeers": [\
@@ -12131,6 +12132,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["my-proj", "workspace:."],\
+            ["@testing-library/dom", "npm:8.18.1"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:632a5d0feb0be57f360902defba85616412362640edce250f049d01302bd3beba09d460377d1e8962201594bd0dfddb69ea340d51504034b68cf1558b6ffff55#npm:13.5.0"],\

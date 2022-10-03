@@ -43,6 +43,7 @@
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@testing-library/dom": "^8.18.1",
     "@types/eslint": "^8",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",

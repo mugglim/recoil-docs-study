@@ -22,8 +22,9 @@ export default function TodoItemCreator() {
 
   return (
     <div>
-      <input type="text" ref={inputRef} />
-      <button onClick={addTodoItem}>Add</button>
+      <label htmlFor="todo">input todo</label>
+      <input id="todo" type="text" ref={inputRef} />
+      <button onClick={addTodoItem}>Submit</button>
     </div>
   );
 }
