@@ -1,6 +1,6 @@
 import React from 'react';
-import TodoItemCreator from './components/Todo/TodoItemCreator';
-import TodoList from './components/Todo/TodoList';
+import TodoItemCreator from './components/TodoItemCreator';
+import TodoList from './components/TodoList';
 
 function App() {
   return (

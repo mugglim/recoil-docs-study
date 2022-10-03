@@ -1,4 +1,4 @@
-import React, {createRef, useRef} from 'react';
+import React, {useRef} from 'react';
 import {useSetRecoilState} from 'recoil';
 import {todoListState} from '../../atoms/todo';
 
